@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main dev]
+    branches: [main dev dylan/shellcheck]
   pull_request:
     branches: [main dev]
   # Allows you to run this workflow manually from the Actions tab
